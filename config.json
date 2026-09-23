@@ -1,0 +1,32 @@
+{
+    "polymarket":  {
+                       "data_api_base":  "https://data-api.polymarket.com",
+                       "data_api_token":  null
+                   },
+    "watchlist":  {
+                      "mode":  "manual",
+                      "manual_wallets":  [
+
+                                         ],
+                      "auto_limit":  25,
+                      "min_quality_score":  0.6
+                  },
+    "signal":  {
+                   "min_trade_usd":  25,
+                   "max_signal_age_seconds":  180,
+                   "min_confidence":  0.55,
+                   "copy_sell_orders":  true
+               },
+    "execution":  {
+                      "enabled":  false,
+                      "max_order_usd":  25,
+                      "max_daily_usd":  100,
+                      "dry_run":  true,
+                      "private_key":  null
+                  },
+    "db_path":  "polybot.db",
+    "poll_interval_seconds":  15,
+    "telegram_allowed_chat_ids":  [
+
+                                  ]
+}
